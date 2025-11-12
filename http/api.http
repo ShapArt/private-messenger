@@ -1,0 +1,12 @@
+### Health check
+GET http://localhost:8000/health
+
+### Send message (ciphertext placeholder)
+POST http://localhost:8000/api/messages
+Content-Type: application/json
+
+{
+  "to": "user_b",
+  "nonce": "base64nonce",
+  "ciphertext": "base64cipher"
+}
