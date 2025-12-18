@@ -10,3 +10,10 @@ dist/
 build/
 .idea/
 .vscode/
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+web/dist/
+desktop/target/
+desktop/src-tauri/target/
