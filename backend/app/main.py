@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from typing import Annotated
 
 import structlog
-from fastapi import Depends, FastAPI, Header, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, Header, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.routing import APIRouter
 from pydantic import BaseModel, Field
@@ -71,12 +71,18 @@ def build_api_router(settings: Settings) -> APIRouter:
     @router.get("/keys/{device_id}", response_model=KeyBundleResponse)
     async def fetch_keys(device_id: str) -> KeyBundleResponse:
         logger.info("fetch_keys", device_id=device_id)
-        return KeyBundleResponse(identity_key="identity", signed_prekey="signed", one_time_prekeys=["otk1"])
+        return KeyBundleResponse(
+            identity_key="identity", signed_prekey="signed", one_time_prekeys=["otk1"]
+        )
 
     @router.get("/prekeys/{user_id}", response_model=list[KeyBundleResponse])
     async def fetch_prekeys(user_id: str) -> list[KeyBundleResponse]:
         logger.info("fetch_prekeys", user_id=user_id)
-        return [KeyBundleResponse(identity_key="identity", signed_prekey="signed", one_time_prekeys=["otk1"])]
+        return [
+            KeyBundleResponse(
+                identity_key="identity", signed_prekey="signed", one_time_prekeys=["otk1"]
+            )
+        ]
 
     @router.post("/signal")
     async def signal(payload: SignalPayload) -> dict:
@@ -116,7 +122,9 @@ def create_app(settings: Settings) -> FastAPI:
         return {"status": "ok"}
 
     @app.websocket("/ws")
-    async def ws_endpoint(websocket: WebSocket, authorization: Annotated[str | None, Header()] = None) -> None:
+    async def ws_endpoint(
+        websocket: WebSocket, authorization: Annotated[str | None, Header()] = None
+    ) -> None:
         await websocket.accept()
         try:
             await websocket.send_json({"hello": "world", "auth": bool(authorization)})
