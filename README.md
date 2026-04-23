@@ -7,33 +7,18 @@
 [![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
 
 ## RU
-**Слоган:** Приватность в архитектуре
+Архитектура приватного мессенджера с фокусом Product Engineer на безопасность, масштабируемость и ценность продукта.
 
-Концепт приватного мессенджера с E2EE-подходом и акцентом на правильные инженерные решения.
-
-### Что даёт проект
-- Быстрый запуск и понятный вход в задачу.
-- Практичный сценарий использования, а не «игрушечный» демо-кейс.
-- Поддерживаемая структура для роста и автоматизации.
-
-### Быстрый старт
-- Открой README/структуру проекта.
-- Запусти команды из текущего репозитория.
-- Используй шаблоны в .github/ для стандартизированного вклада.
-
-### Для кого
-- Инженеры, которым важен результат, а не шум.
-- Команды, ценящие скорость внедрения и качество кода.
+### Baseline
+- Product Engineer: backend и automation-системы, которые дают измеримый бизнес-результат.
+- Приоритет: ценность для клиента, скорость внедрения, надёжность эксплуатации.
 
 ## EN
-**Tagline:** Приватность в архитектуре
+Private messenger architecture with a Product Engineer focus on security, scalability, and product value.
 
-Private messenger architecture concept with E2EE-first design principles.
-
-### Value proposition
-- Fast onboarding and clear project intent.
-- Production-minded structure for scaling and automation.
-- Consistent contribution and quality standards.
+### Baseline
+- Product Engineer building backend and automation systems with measurable product impact.
+- Priority: client value, delivery speed, and operational reliability.
 
 ## Contribution
 See .github/CONTRIBUTING.md.
