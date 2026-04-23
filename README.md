@@ -2,9 +2,9 @@
 
 ![Social Preview](https://raw.githubusercontent.com/ShapArt/private-messenger/main/.github/social-preview.png)
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
 
 ## RU
 Архитектура приватного мессенджера с фокусом Product Engineer на безопасность, масштабируемость и ценность продукта.
@@ -25,4 +25,5 @@ See .github/CONTRIBUTING.md.
 
 ## License
 See LICENSE.
+
 
