@@ -1,46 +1,44 @@
 # private-messenger
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
+![Social Preview](https://raw.githubusercontent.com/ShapArt/private-messenger/main/.github/social-preview.png)
+
+
+[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
 
 ## EN
-private-messenger — practical engineering project by ShapArt.
-
-This repository is part of a modern, portfolio-grade GitHub standard: strong structure, clear onboarding, and predictable contribution flow.
+E2EE self-host messenger design with FastAPI and WebRTC concepts.
 
 ## RU
-private-messenger — practical engineering project by ShapArt.
+E2EE self-host messenger design with FastAPI and WebRTC concepts.
 
-Этот репозиторий оформлен в современном portfolio-стиле: сильная структура, понятный старт и прозрачный процесс вклада.
+## Why this project matters / Зачем нужен проект
+- Explores privacy-first communication architecture.
+- Combines backend API design with E2EE thinking.
+- Useful as a design baseline for secure chat systems.
 
-## Highlights / Что важно
-- Fast onboarding with clear usage entry points.
-- Standardized `.github` health files and contribution rules.
-- Ready for scaling with CI, tests, and roadmap growth.
+## Best for / Для кого
+- Backend developers and automation engineers.
+- Teams building bots, integrations, and internal tools.
 
-## Tech Stack / Технологии
-- Python
-- Automation, bots, and API tooling
-- Production-ready project layout
-
-## Quick Start / Быстрый старт
+## Quick Run / Быстрый запуск
 - Create virtual environment
-- Install dependencies
-- Run main module/script
+- Install dependencies from `requirements.txt`
+- Run the main entrypoint from repository docs
 
-## Structure / Структура
-- `README.md` - overview and usage entry point.
-- `.github/` - policies, templates, workflow config.
-- Source directories - implementation and assets.
+## Repository Compass / Навигация
+- README.md - product context and run flow.
+- .github/ - contribution standards, templates, CI policy.
+- Source directories - core implementation and assets.
 
-## Roadmap / Планы
-- Improve verification and automation coverage.
-- Expand examples and practical scenarios.
-- Keep docs synchronized with real behavior.
+## Topics / Темы
+$topics
 
-## Contributing / Вклад
-See `.github/CONTRIBUTING.md`.
+## Contribution / Вклад
+See .github/CONTRIBUTING.md and open a focused PR.
 
 ## License / Лицензия
-See `LICENSE`.
+See LICENSE.
+
+
