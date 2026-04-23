@@ -2,47 +2,42 @@
 
 ![Social Preview](https://raw.githubusercontent.com/ShapArt/private-messenger/main/.github/social-preview.png)
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
-
-## EN
-E2EE self-host messenger design with FastAPI and WebRTC concepts.
+[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
 
 ## RU
 E2EE self-host messenger design with FastAPI and WebRTC concepts.
 
-## Why this project matters / Зачем нужен проект
-- Explores privacy-first communication architecture.
-- Combines backend API design with E2EE thinking.
-- Useful as a design baseline for secure chat systems.
+### Зачем этот проект
+- Приватный мессенджер и E2EE-архитектура
+- Ориентирован на практическое использование, а не «учебный шаблон».
+- Поддерживает единый стандарт качества профиля и репозиториев.
 
-## Best for / Для кого
-- Backend developers and automation engineers.
-- Teams building bots, integrations, and internal tools.
+### Быстрый старт
+- Создай виртуальное окружение
+- Установи зависимости из requirements.txt
+- Запусти основной модуль по инструкции репозитория
 
-## Quick Run / Быстрый запуск
+### Для кого
+- Разработчики backend/automation решений.
+- Команды, которым нужна понятная архитектура и предсказуемый запуск.
+
+## EN
+E2EE self-host messenger design with FastAPI and WebRTC concepts.
+
+### Why this project
+- Приватный мессенджер и E2EE-архитектура
+- Built for practical delivery, not just a demo.
+- Follows a consistent engineering quality standard.
+
+### Quick start
 - Create virtual environment
-- Install dependencies from `requirements.txt`
-- Run the main entrypoint from repository docs
+- Install requirements
+- Run main module from docs
 
-## Repository Compass / Навигация
-- README.md - product context and run flow.
-- .github/ - contribution standards, templates, CI policy.
-- Source directories - core implementation and assets.
+## Contribution
+See .github/CONTRIBUTING.md.
 
-## Topics / Темы
-$topics
-
-## Contribution / Вклад
-See .github/CONTRIBUTING.md and open a focused PR.
-
-## License / Лицензия
+## License
 See LICENSE.
-
-
-
-
-
-
-
