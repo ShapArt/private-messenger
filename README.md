@@ -7,34 +7,33 @@
 [![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
 
 ## RU
-E2EE self-host messenger design with FastAPI and WebRTC concepts.
+**Слоган:** Приватность в архитектуре
 
-### Зачем этот проект
-- Приватный мессенджер и E2EE-архитектура
-- Ориентирован на практическое использование, а не «учебный шаблон».
-- Поддерживает единый стандарт качества профиля и репозиториев.
+Концепт приватного мессенджера с E2EE-подходом и акцентом на правильные инженерные решения.
+
+### Что даёт проект
+- Быстрый запуск и понятный вход в задачу.
+- Практичный сценарий использования, а не «игрушечный» демо-кейс.
+- Поддерживаемая структура для роста и автоматизации.
 
 ### Быстрый старт
-- Создай виртуальное окружение
-- Установи зависимости из requirements.txt
-- Запусти основной модуль по инструкции репозитория
+- Открой README/структуру проекта.
+- Запусти команды из текущего репозитория.
+- Используй шаблоны в .github/ для стандартизированного вклада.
 
 ### Для кого
-- Разработчики backend/automation решений.
-- Команды, которым нужна понятная архитектура и предсказуемый запуск.
+- Инженеры, которым важен результат, а не шум.
+- Команды, ценящие скорость внедрения и качество кода.
 
 ## EN
-E2EE self-host messenger design with FastAPI and WebRTC concepts.
+**Tagline:** Приватность в архитектуре
 
-### Why this project
-- Приватный мессенджер и E2EE-архитектура
-- Built for practical delivery, not just a demo.
-- Follows a consistent engineering quality standard.
+Private messenger architecture concept with E2EE-first design principles.
 
-### Quick start
-- Create virtual environment
-- Install requirements
-- Run main module from docs
+### Value proposition
+- Fast onboarding and clear project intent.
+- Production-minded structure for scaling and automation.
+- Consistent contribution and quality standards.
 
 ## Contribution
 See .github/CONTRIBUTING.md.
