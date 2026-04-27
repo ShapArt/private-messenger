@@ -1,29 +1,43 @@
 # private-messenger
 
-![Social Preview](https://raw.githubusercontent.com/ShapArt/private-messenger/main/.github/social-preview.png)
+Messaging prototype focused on private communication workflows and the engineering questions around them.
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/private-messenger?style=for-the-badge)](https://github.com/ShapArt/private-messenger/blob/main/LICENSE)
+## What this repository is
+
+`private-messenger` is best positioned as a prototype or learning-oriented messaging project.
+
+The name suggests a privacy-focused direction, but privacy claims should be made carefully. Unless the repository contains a clearly documented cryptographic design, audited implementation, and threat model, it should not be presented as a secure messenger.
+
+## Why this project is interesting
+
+Messaging projects are useful because they force several important engineering questions to the surface:
+
+- how users are represented;
+- how conversations are created and stored;
+- how messages move through the system;
+- what data is persisted;
+- where privacy boundaries actually exist;
+- how the UI or API handles real interaction flows.
+
+## Portfolio positioning
+
+This is a supporting prototype.
+
+It can still be useful in a portfolio if it is framed honestly: not as a finished encrypted communication platform, but as an exploration of messaging architecture and user-to-user interaction flows.
+
+## What would make it stronger
+
+- architecture diagram;
+- threat model if privacy is central;
+- setup and run instructions;
+- screenshots or API examples;
+- clear note on what is and is not encrypted;
+- list of implemented features.
 
 ## RU
-Архитектура приватного мессенджера с фокусом Product Engineer на безопасность, масштабируемость и ценность продукта.
 
-### Baseline
-- Product Engineer: backend и automation-системы, которые дают измеримый бизнес-результат.
-- Приоритет: ценность для клиента, скорость внедрения, надёжность эксплуатации.
-
-## EN
-Private messenger architecture with a Product Engineer focus on security, scalability, and product value.
-
-### Baseline
-- Product Engineer building backend and automation systems with measurable product impact.
-- Priority: client value, delivery speed, and operational reliability.
-
-## Contribution
-See .github/CONTRIBUTING.md.
+Прототип приватного мессенджера. Важно не называть его «безопасным мессенджером» без threat model и понятной криптографической схемы. Сильная честная подача: проект про архитектуру сообщений, пользовательские сессии и границы приватности.
 
 ## License
-See LICENSE.
 
-
+See `LICENSE`.
